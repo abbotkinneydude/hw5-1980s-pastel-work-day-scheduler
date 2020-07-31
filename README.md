@@ -1,13 +1,13 @@
 # hw5-1980s-pastel-work-day-scheduler
 
-Github Repository Page: https://github.com/abbotkinneydude/hw5-work-day-organizer
-Github Deployment Page: https://abbotkinneydude.github.io/hw5-work-day-organizer/
+Github Repository Page: https://github.com/abbotkinneydude/hw5-1980s-pastel-work-day-scheduler
+Github Deployment Page: https://abbotkinneydude.github.io/hw5-1980s-pastel-work-day-scheduler/
 
 
-** 1980s Pastel Work Day Scheduler optimized for mobile devices (Skeleton CSS).**
+*** 1980s Pastel Work Day Scheduler optimized for mobile devices (Skeleton CSS).***
 
 
-Overview:
+<u>Overview:</u>
 
 
 • Lightweight Scheduler App built on Skeleton CSS, Moment JS and Jquery.
@@ -26,7 +26,7 @@ Overview:
 
 
 
-Instructions:
+<u>Instructions:</u>
 
 
 • Associate an hour of the day with such events as a medical appointment, a conference call, investor's meeting or any other type of event.
