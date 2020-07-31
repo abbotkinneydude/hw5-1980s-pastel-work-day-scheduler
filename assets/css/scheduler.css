@@ -1,0 +1,119 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.top-box {
+  margin: 10px 0px 30px 0px;
+  padding: 20px;
+  background-color: #00ffff;
+}
+
+.headers {
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ff6666;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 5px;
+  font-weight: 300; }
+
+.appointment-line {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border-top: dotted 1px black;
+}
+
+div.exact-hour {
+    text-align: center;
+    padding: 20px;
+    color: #f2f2f2; 
+    background: #ff7f50;
+    box-shadow: 8px 5px #d8d8d8;
+}
+
+.descriptionSection {
+  padding: 12px 12px 0px 12px;
+  color: white;
+}
+
+.past {
+  background-color: #5079ff;
+}
+.descriptionSection.present {
+  background-color: #ff6666;
+}
+.descriptionSection.future {
+  background-color: #00ffff;
+}
+
+.scheduledEvent {
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+  color: #000000;
+  box-shadow: 5px 5px #ffd750;
+}
+
+.rsvp {
+  font-size: 1.7em;
+  text-align: center;
+  padding: 10px;
+  color: #f2f2f2;
+  background: #ff5079;
+  box-shadow: -8px 5px #d8d8d8; 
+}
+
+.rsvp span:hover {
+  font-size: 2.2em;
+  transition: all .3s ease-in-out;
+}
+
+.back-to-top {
+  width: 100%;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 960px) {
+  div.exact-hour {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 884px) {
+  div.exact-hour {
+    font-size: 1.3em;
+  }
+}
+
+
+@media screen and (max-width: 751px) {
+  div.exact-hour {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  div.exact-hour {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  div.exact-hour {
+    font-size: 2em;
+    box-shadow: none;
+  }
+  .scheduledEvent {
+    box-shadow: none;
+  }
+  .rsvp {
+    box-shadow: none;
+  }
+}

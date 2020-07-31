@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>1980s Pastel Work Day Scheduler (Skeleton CSS, Moment JS, Jquery)</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/img/clock-icon-ios7-style-512x512.png">
+  <!-- Normalize CSS - Same function as a CSS Reset-->
+  <link rel="stylesheet" href="./assets/css/normalize.css" />
+  <!-- Skeleton CSS -->
+  <link rel="stylesheet" href="./assets/css/skeleton.css" />
+  <!-- Custom Scheduler CSS -->
+  <link rel="stylesheet" href="./assets/css/scheduler.css" />
+  <!-- Font Import -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+</head>
+    <body>
+
+      <div class="container"> <!-- Start Container -->
+        
+        <div class="row top-box">
+          <div class="twelve columns headers">
+            <h2>1980s Pastel Work Day Scheduler</h2>
+            <h5>Lightweight Scheduler App built on Skeleton CSS, Moment JS and Jquery.</h5>
+            <h5 id="realTime"></h5>
+          </div>
+        </div>
+
+        <div class="row appointment-line">
+          <div class="two columns exact-hour">07:00</div>
+          <div class="eight columns descriptionSection" value="07">
+            <textarea id="rsvp07" class="scheduledEvent"></textarea>
+          </div>
+          <div class="two columns rsvp scheduleButton">
+            <span class="fa fa-plus"></span>
+          </div>
+        </div>
+
+        <div class="row appointment-line">
+          <div class="two columns exact-hour">08:00</div>
+          <div class="eight columns descriptionSection" value="08">
+            <textarea id="rsvp08" class="scheduledEvent"></textarea>
+          </div>
+          <div class="two columns rsvp scheduleButton">
+            <span class="fa fa-plus"></span>
+          </div>
+        </div>
+
+        <div class="row appointment-line">
+            <div class="two columns exact-hour">09:00</div>
+            <div class="eight columns descriptionSection" value="09">
+              <textarea id="rsvp09" class="scheduledEvent"></textarea>
+            </div>
+            <div class="two columns rsvp scheduleButton">
+              <span class="fa fa-plus"></span>
+            </div>
+        </div>
+
+        <div class="row appointment-line">
+          <div class="two columns exact-hour">10:00</div>
+          <div class="eight columns descriptionSection" value="10">
+            <textarea id="rsvp10" class="scheduledEvent"></textarea>
+          </div>
+          <div class="two columns rsvp scheduleButton">
+            <span class="fa fa-plus"></span>
+          </div>
+        </div>
+      
+      <div class="row appointment-line">
+        <div class="two columns exact-hour">11:00</div>
+        <div class="eight columns descriptionSection" value="11">
+          <textarea id="rsvp11" class="scheduledEvent"></textarea>
+        </div>
+        <div class="two columns rsvp scheduleButton">
+          <span class="fa fa-plus"></span>
+        </div>
+      </div>
+    
+    <div class="row appointment-line">
+      <div class="two columns exact-hour">12:00</div>
+      <div class="eight columns descriptionSection" value="12">
+        <textarea id="rsvp12" class="scheduledEvent"></textarea>
+      </div>
+      <div class="two columns rsvp scheduleButton">
+        <span class="fa fa-plus"></span>
+      </div>
+    </div>
+  
+  <div class="row appointment-line">
+    <div class="two columns exact-hour">13:00</div>
+    <div class="eight columns descriptionSection" value="13">
+      <textarea id="rsvp13" class="scheduledEvent"></textarea>
+    </div>
+    <div class="two columns rsvp scheduleButton">
+      <span class="fa fa-plus"></span>
+    </div>
+  </div>
+
+<div class="row appointment-line">
+  <div class="two columns exact-hour">14:00</div>
+  <div class="eight columns descriptionSection" value="14">
+    <textarea id="rsvp14" class="scheduledEvent"></textarea>
+  </div>
+  <div class="two columns rsvp scheduleButton">
+    <span class="fa fa-plus"></span>
+  </div>
+</div>
+
+<div class="row appointment-line">
+  <div class="two columns exact-hour">15:00</div>
+  <div class="eight columns descriptionSection" value="15">
+    <textarea id="rsvp15" class="scheduledEvent"></textarea>
+  </div>
+  <div class="two columns rsvp scheduleButton">
+    <span class="fa fa-plus"></span>
+  </div>
+</div>
+
+<div class="row appointment-line">
+  <div class="two columns exact-hour">16:00</div>
+  <div class="eight columns descriptionSection" value="16">
+    <textarea id="rsvp16" class="scheduledEvent"></textarea>
+  </div>
+  <div class="two columns rsvp scheduleButton">
+    <span class="fa fa-plus"></span>
+  </div>
+</div>
+
+<div class="row appointment-line">
+  <div class="two columns exact-hour">17:00</div>
+  <div class="eight columns descriptionSection" value="17">
+    <textarea id="rsvp17" class="scheduledEvent"></textarea>
+  </div>
+  <div class="two columns rsvp scheduleButton">
+    <span class="fa fa-plus"></span>
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <a class="button back-to-top" href="#">Back to Top</a>
+  </div>
+</div>
+
+      </div> <!-- End Container -->
+
+      <!-- Jquery CDN -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <!-- Moment CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <!-- Scheduler JS -->
+      <script src="./assets/js/scheduler.js"></script>
+
+    </body>
+  </html>
