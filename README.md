@@ -1,8 +1,8 @@
 ## #hw5-1980s-pastel-work-day-scheduler
 
 <h3>1980s Pastel Work Day Scheduler optimized for mobile devices (Skeleton CSS).</h3>
-<p>Github Repository Page: https://github.com/palowenstein/hw5-1980s-pastel-work-day-scheduler</p>
-<p>Github Deployment Page: https://palowenstein.github.io/hw5-1980s-pastel-work-day-scheduler/</p>
+<p>Github Repository Page: https://github.com/palowenstein/1980s-pastel-work-day-scheduler</p>
+<p>Github Deployment Page: https://palowenstein.github.io/1980s-pastel-work-day-scheduler/</p>
 
 ![1980s Pastel Colors Work Day Scheduler (Screenshot)](./assets/img/ucla-hw5-1980s-pastel-colors-daily-scheduler.jpg?raw=true "1980s Pastel Colors Work Day Scheduler (Screenshot)")
 
