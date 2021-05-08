@@ -1,10 +1,10 @@
-## #hw5-1980s-pastel-work-day-scheduler
+## #5-1980s-pastel-work-day-scheduler
 
 <h3>1980s Pastel Work Day Scheduler optimized for mobile devices (Skeleton CSS).</h3>
 <p>Github Repository Page: https://github.com/palowenstein/1980s-pastel-work-day-scheduler</p>
 <p>Github Deployment Page: https://palowenstein.github.io/1980s-pastel-work-day-scheduler/</p>
 
-![1980s Pastel Colors Work Day Scheduler (Screenshot)](./assets/img/ucla-hw5-1980s-pastel-colors-daily-scheduler.jpg?raw=true "1980s Pastel Colors Work Day Scheduler (Screenshot)")
+![1980s Pastel Colors Work Day Scheduler (Screenshot)](./assets/img/5-1980s-pastel-colors-daily-scheduler.jpg?raw=true "1980s Pastel Colors Work Day Scheduler (Screenshot)")
 
 ## Overview:
 <ul>
@@ -49,7 +49,7 @@
 
  ## Contact
 <p>
-<a href="http://pierreandrelowenstein.com" title="[www] Pierre Andr&eacute; Lowenstein" target="_blank">[www] pierreandrelowenstein.com</a>
+<a href="https://pierreandrelowenstein.com" title="[www] Pierre Andr&eacute; Lowenstein" target="_blank">[www] pierreandrelowenstein.com</a>
 &nbsp;|&nbsp;
-<a href="mailto:soundtrackspecialist@gmail.com" title="Courriel">Send me a 'courriel'</a>
+<a href="mailto:coder@pierreandrelowenstein.com" title="Courriel">Send me a 'courriel'</a>
 </p>
